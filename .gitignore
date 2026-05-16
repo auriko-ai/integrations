@@ -10,7 +10,6 @@
 !*.svg
 !LICENSE
 !.gitignore
-!.github/**
 
 .env*
 *.pem
@@ -18,9 +17,10 @@
 *.p12
 *.pfx
 credentials*
-secrets.*
-secrets/
+secrets*
 *.pickle
 __pycache__/
 *.pyc
 .DS_Store
+
+!.github/**
